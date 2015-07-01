@@ -44,7 +44,7 @@ endif()
 
 option(LWS_WITH_STATIC "Build the static version of the library" ON)
 option(LWS_WITH_SHARED "Build the shared version of the library" ON)
-option(LWS_WITH_SSL "Include SSL support (default OpenSSL, CyaSSL if LWS_USE_CYASSL is set)" ON)
+option(LWS_WITH_SSL "Include SSL support (default OpenSSL, CyaSSL if LWS_USE_CYASSL is set)" OFF)
 option(LWS_USE_CYASSL "Use CyaSSL replacement for OpenSSL. When settings this, you also need to specify LWS_CYASSL_LIBRARIES and LWS_CYASSL_INCLUDE_DIRS" OFF)
 option(LWS_WITH_ZLIB "Include zlib support (required for extensions)" ON)
 option(LWS_WITH_LIBEV "Compile with support for libev" OFF)
